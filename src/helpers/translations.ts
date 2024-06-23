@@ -1,0 +1,78 @@
+export const translations = {
+    people: {
+        name: 'nombre',
+        height: 'altura',
+        mass: 'peso',
+        hair_color: 'color_cabello',
+        skin_color: 'color_de_piel',
+        eye_color: 'color_ojos',
+        birth_year: 'nacimiento',
+        gender: 'genero',
+    },
+    films: {
+        title: 'titulo',
+        episode_id: 'id_episodio',
+        opening_crawl: 'texto_apertura',
+        director: 'director',
+        producer: 'productor',
+        release_date: 'fecha_estreno',
+    },
+    starships: {
+        name: 'nombre',
+        model: 'modelo',
+        starship_class: 'clase_nave_espacial',
+        manufacturer: 'fabricante',
+        cost_in_credits: 'costo_en_creditos',
+        length: 'longitud',
+        crew: 'tripulacion',
+        passengers: 'pasajeros',
+        max_atmosphering_speed: 'velocidad_maxima_atmosferica',
+        hyperdrive_rating: 'hipervelocidad_clasificacion',
+        MGLT: 'MGLT',
+        cargo_capacity: 'capacidad_de_carga',
+        consumables: 'consumibles',
+    },
+    vehicles: {
+        name: 'nombre',
+        model: 'modelo',
+        vehicle_class: 'clase_vehiculo',
+        manufacturer: 'fabricante',
+        length: 'longitud',
+        cost_in_credits: 'costo_en_creditos',
+        crew: 'tripulacion',
+        passengers: 'pasajeros',
+        max_atmosphering_speed: 'velocidad_maxima_atmosferica',
+        cargo_capacity: 'capacidad_de_carga',
+        consumables: 'consumibles',
+    },
+    planets: {
+        name: 'nombre',
+        diameter: 'diametro',
+        rotation_period: 'periodo_rotacion',
+        orbital_period: 'periodo_orbital',
+        gravity: 'gravedad',
+        population: 'poblacion',
+        climate: 'clima',
+        terrain: 'terreno',
+        surface_water: 'superficie_agua'
+    },
+    species: {
+        name: 'nombre',
+        classification: 'clasificacion',
+        average_height: 'altura_promedio',
+        average_lifespan: 'esperanza_vida_promedio',
+        hair_color: 'color_cabello',
+        skin_color: 'color_de_piel',
+        eye_color: 'color_ojos',
+        language: 'lenguaje'
+    },
+};
+
+export const modelTranslations = {
+    people: "Personajes",
+    films: "Peliculas",
+    planets: "Planetas",
+    species: "Planetas",
+    starships: "NavesEspaciales",
+    vehicles: "Vehiculos"
+}
