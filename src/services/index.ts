@@ -1,2 +1,2 @@
-export * from './swapiService';
+export * from './axiosService';
 export * from './dynamoDBService';
