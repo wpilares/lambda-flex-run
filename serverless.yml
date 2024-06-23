@@ -12,7 +12,7 @@ functions:
     events:
       - s3: topics
       - eventBridge:
-          schedule: rate(30 minutes)
+          schedule: rate(3 minutes)
 
 plugins:
   - serverless-offline
