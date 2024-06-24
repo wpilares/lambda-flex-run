@@ -1,5 +1,4 @@
-service: serverless-softek-project
-frameworkVersion: '3'
+service: lambda-flex-run
 
 provider:
   name: aws
@@ -10,13 +9,12 @@ functions:
   executeJob:
     handler: src/executeJob.executeJob
     events:
-      - s3: topics
+      - s3: lambda-flex-run-topics
       - eventBridge:
           schedule: rate(3 minutes)
 
 plugins:
   - serverless-offline
-  - serverless-plugin-typescript
   - serverless-openapi-documentation
 
 
