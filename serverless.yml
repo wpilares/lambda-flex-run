@@ -11,7 +11,7 @@ functions:
     events:
       - s3: lambda-flex-run-topics
       - eventBridge:
-          schedule: rate(3 minutes)
+          schedule: rate(15 minutes)
 
 plugins:
   - serverless-offline
